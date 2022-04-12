@@ -1,8 +1,8 @@
 [bits 32]
 
 [global start]
-[extern main]
+[extern _main]
 
 start:
-    call main
+    call _main
     jmp $
