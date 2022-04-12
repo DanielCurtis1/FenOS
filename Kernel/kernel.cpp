@@ -1,4 +1,5 @@
+#include "../Drivers/Printstring.h"
 extern "C" void __main(){
-    *(char*)0xb8000 = 'Q';
+    puts(1, "goldfish");
     return;
 }
