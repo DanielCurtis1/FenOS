@@ -1,2 +1,2 @@
 ;used to help prevent errors
-times 10240 db 0
+times 25600 db 0
