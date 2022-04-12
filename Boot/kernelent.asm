@@ -5,5 +5,4 @@
 
 start:
     call main
-    cli
-    htl
+    jmp $

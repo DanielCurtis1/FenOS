@@ -1,5 +1,10 @@
-#include "Video.h"
-int main(void){
-    Video vid;
-    vid.write("goldfish debug");
+#include "message.h"
+#include <cstdlib>
+
+using namespace std;
+
+int main(){
+    message m;
+    m.printMsg();
+    return 0;
 }
