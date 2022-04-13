@@ -1,5 +1,6 @@
 #include "../Drivers/Printstring.h"
+#include "../Util/Typedef.h"
 extern "C" void __main(){
-    puts(1, "goldfish");
+    puts((uint8_t*)"goldfish", 1);
     return;
 }
